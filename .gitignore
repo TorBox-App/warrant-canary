@@ -1,0 +1,25 @@
+# GnuPG homes, private-key storage, and revocation certificates
+.gnupg/
+**/.gnupg/
+private-keys-v1.d/
+**/private-keys-v1.d/
+openpgp-revocs.d/
+**/openpgp-revocs.d/
+secring.gpg
+*.rev
+
+# Common private-key and credential exports
+*private-key*
+*secret-key*
+*.private.asc
+*.secret.asc
+*.key
+*.pem
+*.p12
+*.pfx
+.env
+.env.*
+!.env.example
+
+# Local OS metadata
+.DS_Store
